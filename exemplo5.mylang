@@ -1,0 +1,4 @@
+let x = 5 in
+((if ((x > y) || (x == y)) && (x > (abs y * 2) - x) then (abs x) else (abs y))
+where abs = (\z : Num -> if z > 0 then z else (0-z)))
+where y = (0-6)

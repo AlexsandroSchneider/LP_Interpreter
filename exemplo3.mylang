@@ -1,0 +1,1 @@
+((maior 10) 15) where maior = (\x : Num -> (\y : Num -> if x > y then x else y))

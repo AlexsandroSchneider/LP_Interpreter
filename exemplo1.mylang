@@ -1,0 +1,2 @@
+if (let x = 5 in let y = x + 10 in y * 2) == (((y * 2) where y = x + 10) where x = 5)
+then true else false

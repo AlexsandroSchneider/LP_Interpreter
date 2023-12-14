@@ -1,0 +1,1 @@
+((absoluto z) where absoluto = (\x : Num -> (if x > 0 then x else (0-x)))) where z = (0-2)
